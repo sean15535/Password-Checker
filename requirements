@@ -1,0 +1,4 @@
+a pasword checker code
+it collects password input from the user
+checks if it is strong enough 
+if it is weak, it generats a new password for them
