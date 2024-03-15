@@ -14,9 +14,8 @@ def user():
     digits = any(x.isdigit() for x in password)
     character = any(char in special_characters for char in password )
     new_password = generate_password(8)
-
     if len(password) >= 8 and lower and upper and character and digits:
         print(f"{name} {password}")
     else:
-        print(f"Password is weak.\nTry using this password: {new_password} ")
+        print(f"Password is weak.\nTry this password: {new_password} ")
 user()
